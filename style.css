@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 75%;
+    padding: 8px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Verdana;
+    color: lightslategray
+}
+
+p {
+    font-family: Helvetica;
+    color: darkslategray;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: lightslategray;
+    word-spacing: 2em;
+}
+
+footer a {
+    color: oldlace;
+
+}
+
+header a {
+    color: oldlace;
+
+}
+
+p a {
+    color: rgb(147, 186, 196);
+
+}
+
+header {
+    padding: 8px;
+    background-color: lightslategray;
+    word-spacing: 2em;
+    text-transform: capitalize;
+
+}
+
+
+body {
+    margin: 0;
+    background-color: oldlace;
+}
