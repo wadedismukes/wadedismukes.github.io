@@ -7,14 +7,36 @@ h1 {
 }
 .column {
     flex: 50%;
-    padding: 8px;
-    margin: auto;
+    padding: 0px;
+
+    align-content: center;
 }
 
-.cv {
-    margin: auto;
-    width: 80%;
-    height: 100%;
+.column figure {
+    display: inline-flex;
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-bottom: 1em;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column p, h2 {
+    font-size: x-large;
+    margin-right: 2em;
+    align-content: center;
+    text-align: center;
+}
+
+div.pdf {
+    align-content: center;
+}
+
+div.pdf embed {
+    width: 100%;
+    height: 500px;
 }
 
 h2 {
@@ -51,7 +73,7 @@ footer a {
 header a {
     color: oldlace;
     vertical-align: middle;
-    text-transform: capitalize;
+    text-transform: uppercase;
 
 }
 
@@ -85,11 +107,4 @@ ul li {
     font-family: Helvetica;
 }
 
-.column figure {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
