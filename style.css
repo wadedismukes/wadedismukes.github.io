@@ -6,10 +6,16 @@ h1 {
     display: flex;
 }
 .column {
-    flex: 75%;
+    flex: 50%;
     padding: 8px;
+    margin: auto;
 }
 
+.cv {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
 
 h2 {
     text-align: center;
@@ -17,47 +23,73 @@ h2 {
 
 h1,h2,h3,h4,h5 {
     font-family: Verdana;
-    color: lightslategray
+    color: #325bba
 }
 
 p {
     font-family: Helvetica;
-    color: darkslategray;
+    color: #244083;
 }
 
 footer {
     align-items: center;
     text-align: center;
     padding: 10px;
-    background-color: lightslategray;
+    background-color: #325bba;
     word-spacing: 2em;
+    width: 100%;
+    height: 5%;
 }
 
 footer a {
     color: oldlace;
+    vertical-align: middle;
+    margin: auto;
 
 }
 
 header a {
     color: oldlace;
+    vertical-align: middle;
+    text-transform: capitalize;
 
 }
 
 p a {
-    color: rgb(147, 186, 196);
+    color: rgb(83, 142, 83);
 
 }
 
 header {
     padding: 8px;
-    background-color: lightslategray;
+    background-color: #325bba;
     word-spacing: 2em;
-    text-transform: capitalize;
-
+    height: 5%;
 }
 
+main {
+    margin-left: 1in;
+    margin-right: 1in;
+    height: 90%;
+}
 
-body {
+html, body {
     margin: 0;
     background-color: oldlace;
+    height: 100%;
+    width: 100%;
 }
+
+ul li {
+    color: #244083;
+    font-family: Helvetica;
+}
+
+.column figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
